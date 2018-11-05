@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     Log.e("MainActivity", "onCreate called");
 
     label = findViewById(R.id.label);
-    label.setText("Андроид ноябрь");
+    label.setText(R.string.android_november);
     counter++;
   }
 
